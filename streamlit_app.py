@@ -18,7 +18,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    st.markdown('📖 Learn how to build this app in this [blog](https://www.mindchamp.in)!')
+    st.markdown('📖 To learn how to code [visit MindChamp](https://www.mindchamp.in)!')
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
